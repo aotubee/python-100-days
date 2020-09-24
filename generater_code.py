@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # coding=utf-8
 
 import random
@@ -19,4 +19,4 @@ def fenerate_code(code_len=4):
     return code
 
 if __name__=='__main__':
-    print fenerate_code()
+    print (fenerate_code())
