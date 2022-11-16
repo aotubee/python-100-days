@@ -31,7 +31,7 @@ data = {
     "msgtype": "text",
     "text": { "content": "测试" },
     #@群成员
-    "at": {"atMobiles": ["18602902055"]},
+    "at": {"atMobiles": ["18602900290"]},
     "isAtAll": False }
 
 headers={'Content-Type': 'application/json'}   #定义数据类型
