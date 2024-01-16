@@ -18,8 +18,8 @@ def check_alive(ip):
         print ('此IP不通.%s' %ip)
 
 if __name__=="__main__":
-    ips="192.168.4."
-    for i in list(range(201,210)):
+    ips="192.168.88."
+    for i in list(range(1,255)):
         ip= ips + str(i)
-        print ("开始批量ping所有ip：")
+        print ("IP网络测试情况：")
         check_alive(ip)
